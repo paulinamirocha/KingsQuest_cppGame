@@ -41,7 +41,7 @@ Character Dragon =	{	"Dragon",	150.f,	30.f,		5};
 
 bool CanAttack = false;			// attack will happen by default
 
-bool FirstAttack = true;		// safecheck so the intro rolls only once
+bool FirstAttack = true;		// safety check so the intro rolls only once
 
 Character* CurrentCharacter;	// pointer for the chosen character
 
@@ -183,3 +183,4 @@ int main()
 	}
 	
 };
+
